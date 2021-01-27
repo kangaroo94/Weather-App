@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--maximum-scale=1.0, user-scalable=0 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Weather in API</title>
+  </head>
+
+<body>
+  <header>
+    <div class="container">
+        <h1 class="title__weather">weather<span>in</span></h1>
+        <form class="search__weather-inner">
+            <div class="search-box">
+                <input type="text" placeholder="What city..." required
+                    oninvalid="this.setCustomValidity('Fill in this field!')" oninput="setCustomValidity('')">
+                <div class="search-btn">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </form>
+    </div>
+</header>
+  <!----------------------------------------------------START WRITE CODE--------------------------------------------------------------------------------------------------------------------------------------------------->
+  <main>
+    <div class="container">
+      <div class="card__weather-rounded">
+        <div class="card__weather">
+          <img src="images/content/sunset-1373171_1920.jpg" alt="">
+          <div class="icon_container"></div>
+          <div class="card__weather-content">
+            <p class="card__weather-city">Unknown</p>
+            <span class="card__weather-date text-white text-black">...</span>
+            <div class="card__weather-temp_degrees">
+              <span>0&deg;c</span>
+            </div>
+          </div>
+        </div>
+        <div class="card__weather-description">
+          <div class="card__weather-dark">
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+          <p>Clouds</p>
+        </div>
+        <div class="card__weather-temp_feels"></div>
+        <div class="card__weather-body">
+          <div class="card__weather-temp_content">
+            <p>Temperature air</p>
+            <span class="card__weather-temp--up">0&deg;c</span>
+            <span class="card__weather-temp--down">0&deg;c</span>
+          </div>
+        </div>
+
+
+        <div class="card__weather-rounded_second">
+          <div class="card__weather-rounded_box">
+            <span class="weather__pressure">0mm</span>
+            <p>pressure</p>
+          </div>
+          <div class="card__weather-rounded_box">
+            <span class="weather__humidity">0%</span>
+            <p>humidity</p>
+          </div>
+          <div class="card__weather-rounded_box">
+            <span class="weather__wind">0m/s</span>
+            <p>wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!---------------------------------------------------<SECTION CONTENT>-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <!----------------------------------------------------STOP WRITE CODE--------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <footer>
+ 
+</footer>
+  <script src="https://kit.fontawesome.com/3d0e27e432.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
