@@ -10,6 +10,8 @@
 ![API](https://img.shields.io/badge/-API-009688?style=plastic&logo=fastAPI) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=plastic&logo=HTML5) ![CSS](https://img.shields.io/badge/-CSS3-blue?style=plastic&logo=CSS3) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=plastic&logo=JavaScript) ![Sass](https://img.shields.io/badge/-Sass-pink?style=plastic&logo=Sass) ![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=plastic&logo=Webpack) ![BABEL](https://img.shields.io/badge/-BABEL-F9DC3E?style=plastic&logo=BABEL) ![Gulp](https://img.shields.io/badge/-Gulp-CF4647?style=plastic&logo=Gulp)
 </div>
 
+<img src="https://file.modx.pro/files/7/1/e/71e9d5d262031be9f72008ce21b917a6.png" />
+
 <h2 align="center">Описание</h2>
 
 - Приложение Weather-App с использованием JavaScript/fetch для получения данных из API
